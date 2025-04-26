@@ -10,7 +10,7 @@ app.use(express.static(path.join(__dirname, "../client/dist")));
 
 app.post("/api/generate", (req, res) => {
   try {
-    const python = spawn("python", ["server/script.py"]);
+    const python = spawn("python3", ["server/script.py"]);
     let result = "";
 
     python.stdin.write(req.body.prompt + "\n");

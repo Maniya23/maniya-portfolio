@@ -4,18 +4,18 @@ services:
     env: node
     buildCommand: |
       apt-get update && apt-get install -y python3 python3-pip
-      pip install -r requirements.txt
+      python3 -m pip install -r requirements.txt
       python3 --version
-      pip --version
-      pip list
+      python3 -m pip --version
+      python3 -m pip list
       python3 -c "import google.generativeai; print('google.generativeai is importable!')"
       npm install
       cd client && npm install && npm run build
     startCommand: |
-      pip install -r requirements.txt
+      python3 -m pip install -r requirements.txt
       python3 --version
-      pip --version
-      pip list
+      python3 -m pip --version
+      python3 -m pip list
       python3 -c "import google.generativeai; print('google.generativeai is importable!')"
       npm start
     envVars:
