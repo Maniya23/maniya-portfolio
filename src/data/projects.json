@@ -1,17 +1,20 @@
 [
   {
-    "title": "TravelMate",
-    "description": "A personal portfolio website built with React and Tailwind CSS.",
-    "tech": ["React", "Tailwind", "Vite"],
-    "github": "https://github.com/yourusername/portfolio",
+    "title": "Maniya-AI",
+    "description": "A personalized AI model trained with Manishka's personal data",
+    "longDescription": "A web-based AI chat interface that provides information about Manishka using Google's Gemini AI model. This application allows users to ask questions and receive responses about personal information, professional experience, and preferences.",
+    "tech": ["JavaScript", "Python", "Google gemini-1.5-flash"],
+    "github": "https://github.com/Maniya23/Maniya-AI",
     "demo": "https://yourdomain.com",
     "type": "collab"
   },
   {
-    "title": "Notes App",
-    "description": "A simple CRUD app for taking and managing notes.",
-    "tech": ["Vue", "Firebase"],
-    "github": "https://github.com/yourusername/notes-app",
+    "title": "TravelMate",
+    "description": "Personalized AI Tour Planner",
+    "longDescription": "TravelMate, is a travel planning application.  It uses an AI model (built with Python) to analyze user input regarding their ideal trip and destination. Based on this input, the AI determines the user's travel personality and generates a personalized itinerary tailored to their preferences.  The application uses React JS for the front-end and PHP for the back-end functionality.  A key feature is its ability to create custom itineraries based on predicted travel personality.",
+
+    "tech": ["Python", "PHP", "React JS", "MySQL", "NLP & Travel Personality Prediction model"],
+    "github": "https://github.com/Maniya23/TravelMate",
     "demo": "",
     "type": "personal"
   }
