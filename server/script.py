@@ -1,14 +1,7 @@
 import os
 import sys
 import json
-print("PYTHON VERSION:", sys.version, file=sys.stderr)
-print("PYTHON EXECUTABLE:", sys.executable, file=sys.stderr)
-try:
-    import google.generativeai as genai
-    print("google.generativeai imported successfully!")
-except Exception as e:
-    print("Failed to import google.generativeai:", e)
-    raise
+import google.generativeai as genai
 
 # Get the directory where this script is located
 base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
