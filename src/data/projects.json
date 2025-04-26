@@ -1,0 +1,18 @@
+[
+  {
+    "title": "TravelMate",
+    "description": "A personal portfolio website built with React and Tailwind CSS.",
+    "tech": ["React", "Tailwind", "Vite"],
+    "github": "https://github.com/yourusername/portfolio",
+    "demo": "https://yourdomain.com",
+    "type": "collab"
+  },
+  {
+    "title": "Notes App",
+    "description": "A simple CRUD app for taking and managing notes.",
+    "tech": ["Vue", "Firebase"],
+    "github": "https://github.com/yourusername/notes-app",
+    "demo": "",
+    "type": "personal"
+  }
+]
