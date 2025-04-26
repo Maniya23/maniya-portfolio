@@ -4,10 +4,10 @@ import json
 import google.generativeai as genai
 
 # Get the directory where this script is located
-script_dir = os.path.dirname(os.path.abspath(__file__))
+base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Read API key from file
-api_key_path = os.path.join(script_dir, 'api_key.txt')
+api_key_path = os.path.join(base_dir, 'api_key.txt')
 with open(api_key_path, 'r') as file:
     api_key = file.read().strip()
 
@@ -31,7 +31,7 @@ model = genai.GenerativeModel(
 user_question = sys.stdin.readline().strip()
 
 # Read conversation data from JSON file
-conversation_path = os.path.join(script_dir, 'conversation_data.json')
+conversation_path = os.path.join(base_dir, 'conversation_data.json')
 with open(conversation_path, 'r') as file:
     data = json.load(file)
 
