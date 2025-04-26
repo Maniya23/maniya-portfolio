@@ -1,3 +1,7 @@
+# Project specific
+server/api_key.txt
+server/conversation_data.json
+
 # Logs
 logs
 *.log

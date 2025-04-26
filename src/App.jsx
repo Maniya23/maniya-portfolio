@@ -4,12 +4,14 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import HeroSection from './components/HeroSection'
 import ProjectsSection from './components/ProjectSection'
+import AiChat from './components/AiChat'
 
 function App() {
   return (
       <>
         <HeroSection />
         <ProjectsSection />
+        <AiChat />
       </>
     );
   }

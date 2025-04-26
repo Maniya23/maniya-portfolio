@@ -7,9 +7,12 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "backend": "node server/server.cjs"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "framer-motion": "^12.9.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
