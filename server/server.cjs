@@ -17,6 +17,7 @@ app.post("/api/generate", (req, res) => {
     python.stdin.end();
 
     python.stdout.on("data", (data) => {
+      console.log(`Python stdout: ${data}`);
       result += data.toString();
     });
 
