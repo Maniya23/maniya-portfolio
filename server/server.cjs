@@ -1,10 +1,12 @@
 const express = require("express");
 const { spawn } = require("child_process");
 const cors = require("cors");
+const path = require("path");
 
 const app = express();
 app.use(cors());
 app.use(express.json());
+app.use(express.static(path.join(__dirname, "../client/dist")));
 
 app.post("/api/generate", (req, res) => {
   try {
@@ -31,6 +33,11 @@ app.post("/api/generate", (req, res) => {
   } catch (error) {
     res.status(500).json({ response: "Server error: " + error.message });
   }
+});
+
+// For any routes not matched by the backend, serve index.html
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "../client/dist", "index.html"));
 });
 
 app.listen(3000, () => {
