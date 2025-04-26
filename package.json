@@ -2,5 +2,9 @@
   "scripts": {
     "postinstall": "cd client && npm install && npm run build",
     "start": "node server/server.cjs"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
   }
 }

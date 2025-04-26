@@ -10,16 +10,4 @@ services:
     startCommand: npm start
     envVars:
       - key: NODE_VERSION
-        value: 20services:
-  - type: web
-    name: manishka-portfolio
-    env: node
-    buildCommand: |
-      apt-get update && apt-get install -y python3 python3-pip
-      pip3 install google-generativeai
-      npm install
-      cd client && npm install && npm run build
-    startCommand: npm start
-    envVars:
-      - key: NODE_VERSION
         value: 20
