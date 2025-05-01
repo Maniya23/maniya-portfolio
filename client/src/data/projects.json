@@ -1,12 +1,12 @@
 [
   {
     "title": "Maniya-AI",
-    "description": "A personalized AI model trained with Manishka's personal data",
+    "description": "A personalized AI model trained with Manishka's personal data. Live demo integrated on website",
     "longDescription": "A web-based AI chat interface that provides information about Manishka using Google's Gemini AI model. This application allows users to ask questions and receive responses about personal information, professional experience, and preferences.",
     "tech": ["JavaScript", "Python", "Google gemini-1.5-flash"],
     "github": "https://github.com/Maniya23/Maniya-AI",
-    "demo": "https://yourdomain.com",
-    "type": "collab"
+    "demo": "",
+    "type": "personal"
   },
   {
     "title": "TravelMate",
@@ -16,7 +16,7 @@
     "tech": ["Python", "PHP", "React JS", "MySQL", "NLP & Travel Personality Prediction model"],
     "github": "https://github.com/Maniya23/TravelMate",
     "demo": "",
-    "type": "personal"
+    "type": "collab"
   },
   {
     "title": "Football League Manager",
