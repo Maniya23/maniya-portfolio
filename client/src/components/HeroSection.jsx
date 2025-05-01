@@ -1,6 +1,6 @@
 import React from "react";
 import profilePic from '../assets/profile.jpeg';
-import { FaGithub, FaLinkedin, FaInstagram, FaPhoneAlt } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram, FaPhoneAlt, FaDownload } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 const HeroSection = () => {
@@ -21,7 +21,7 @@ const HeroSection = () => {
           A passionate developer focused on creating clean, modern, and
           performant software solutions.
         </p>
-        <div className="flex space-x-6 justify-center md:justify-start">
+        <div className="flex space-x-6 justify-center md:justify-start items-center">
           <div className="group relative">
             <a
               href="https://github.com/Maniya23"
@@ -85,6 +85,23 @@ const HeroSection = () => {
             </a>
             <span className="absolute -bottom-8 left-1/2 -translate-x-1/2 hidden group-hover:block bg-gray-800 px-2 py-1 rounded text-sm whitespace-nowrap">
               +94771676641
+            </span>
+          </div>
+
+          <div className="h-8 w-px bg-gray-700 mx-2"></div>
+
+          <div className="group relative">
+            <a
+              href="https://drive.google.com/file/d/1Ue1Pazm1hdBjyoVbpW0yv0KZhnjunhS4/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-300 hover:text-white transform hover:scale-110 transition-all duration-200 inline-flex items-center gap-2"
+            >
+              <FaDownload size={30} />
+              <span className="text-sm font-medium">CV</span>
+            </a>
+            <span className="absolute -bottom-8 left-1/2 -translate-x-1/2 hidden group-hover:block bg-gray-800 px-2 py-1 rounded text-sm whitespace-nowrap">
+              Download CV
             </span>
           </div>
         </div>
