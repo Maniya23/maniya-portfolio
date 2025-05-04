@@ -27,5 +27,14 @@
     "github": "https://github.com/Maniya23/TravelMate",
     "demo": "",
     "type": "personal"
+  },
+  {
+    "title": "Flag Game",
+    "description": "An educational Android app for learning about countries and their flags through interactive games.",
+    "longDescription": "Flag Game is an educational Android app built with Kotlin and Jetpack Compose. It helps users learn about countries and their flags through interactive games like guessing flags and countries. The app uses a bundled JSON file for country data and features a modern UI with multiple game modes for an engaging learning experience.",
+    "tech": ["Kotlin", "Jetpack Compose"],
+    "github": "https://github.com/Maniya23/Flag-Game",
+    "demo": "",
+    "type": "personal"
   }
 ]
