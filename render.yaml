@@ -11,3 +11,6 @@ services:
     envVars:
       - key: NODE_VERSION
         value: 20
+      # Set your Gemini key in the dashboard (GEMINI_API_KEY, GOOGLE_API_KEY, or API_KEY)
+      - key: API_KEY
+        sync: false
