@@ -1,5 +1,14 @@
 [
   {
+    "title": "Todo App (Gemini Categorization)",
+    "description": "A simple todo app that uses Gemini to auto-categorize tasks.",
+    "longDescription": "A small and simple todo application built with HTML, Bootstrap, vanilla JavaScript, and a Node.js server. Users can add, complete, delete, and filter tasks, while Gemini is used to automatically categorize todos when needed.",
+    "tech": ["HTML", "Bootstrap 5", "JavaScript", "Node.js", "Google Gemini API"],
+    "github": "https://github.com/Maniya23/Todo_AI",
+    "demo": "https://todo-ai-aztv.onrender.com/",
+    "type": "personal"
+  },
+  {
     "title": "Maniya-AI",
     "description": "A personalized AI model trained with Manishka's personal data. Live demo integrated on website",
     "longDescription": "A web-based AI chat interface that provides information about Manishka using Google's Gemini AI model. This application allows users to ask questions and receive responses about personal information, professional experience, and preferences.",
@@ -35,15 +44,6 @@
     "tech": ["Kotlin", "Jetpack Compose"],
     "github": "https://github.com/Maniya23/Flag-Game",
     "demo": "",
-    "type": "personal"
-  },
-  {
-    "title": "Todo App (Gemini Categorization)",
-    "description": "A simple todo app that uses Gemini to auto-categorize tasks.",
-    "longDescription": "A small and simple todo application built with HTML, Bootstrap, vanilla JavaScript, and a Node.js server. Users can add, complete, delete, and filter tasks, while Gemini is used to automatically categorize todos when needed.",
-    "tech": ["HTML", "Bootstrap 5", "JavaScript", "Node.js", "Google Gemini API"],
-    "github": "https://github.com/Maniya23/Todo_AI",
-    "demo": "https://todo-ai-aztv.onrender.com/",
     "type": "personal"
   }
 ]
